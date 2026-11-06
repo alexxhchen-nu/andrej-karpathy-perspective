@@ -22,6 +22,14 @@
 
 ---
 
+## 🎬 Watch the intro / 看简介视频
+
+<video src="https://raw.githubusercontent.com/alexxhchen-nu/andrej-karpathy-perspective/main/docs/intro.mp4" width="100%" controls muted playsinline></video>
+
+> 25 秒 · 无声音 · 1920×1080 横屏 · 文件见 [docs/intro.mp4](docs/intro.mp4)
+
+---
+
 ## 📦 What's Inside / 里面有什么
 
 <table>
