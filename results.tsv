@@ -1,1 +1,3 @@
 timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-11-06T00:00	102e5d7	andrej-karpathy-perspective	63.9	78.2	keep	Dim2/3/4/9	3-0 better(clear) 三评委一致:路由表+失败模式表+黑名单+输出纪律(先查证标注出处)	paired
+2026-11-06T01:00	102e5d7	andrej-karpathy-perspective	78.2	79.4	keep(no-edit)	Dim8	实测3prompt:Graph层/harness-first命中+闸门表命中+recipe重叠;dim8=8.5;触发HL-4无编辑	full_test

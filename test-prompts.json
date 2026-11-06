@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "scenario": "训练/调试：loss 不收敛 + 验证集虚高",
+    "prompt": "我在 fine-tune 一个 LLM，训练 loss 一直不收敛，而且验证集指标虚高得离谱。我该按什么顺序、用什么方法排查？给我一个可直接照着做的排查清单。",
+    "expected": "应命中「先看数据(按loss降序排序找坏样本)→过拟合单batch→查train/val泄漏(先划分再增强)→3e-4 Adam/固定种子/Don't be a hero」等 recipe 要素，且是排好序的可执行步骤"
+  },
+  {
+    "id": 2,
+    "scenario": "产品判断：demo 惊艳但能否上线",
+    "prompt": "有个 AI 客服 demo 特别惊艳，投资人和老板都催着立刻上线。我该用什么框架判断它到底能不能真上线？",
+    "expected": "应命中「march of nines(90%研究 vs 99.9%部署)→问1亿次使用场景→Iron Man套装vs机器人→数据飞轮」等框架，给出判断标准而非口号"
+  },
+  {
+    "id": 3,
+    "scenario": "架构选型：prompt / agent / graph 哪一层",
+    "prompt": "我要做一个自动抓取+总结行业新闻、每周生成一份报告的 AI 工具。应该做成 prompt、agent 还是 graph 这层？为什么？",
+    "expected": "应命中「prompt得到一个答案就忘/agent完成任务就忘/graph沉淀成结构→先磨harness再放agent」的层级判断，并落到这个具体场景"
+  }
+]
